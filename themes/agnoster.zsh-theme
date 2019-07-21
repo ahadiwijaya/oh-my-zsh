@@ -89,6 +89,7 @@ prompt_end() {
   fi
   echo -n "%{%f%}"
   CURRENT_BG=''
+  echo "\n ➜"
 }
 
 ### Prompt components
